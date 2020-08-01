@@ -11,7 +11,7 @@ hook.Add("ArcCW_LocalizationLoaded", "ArcCW_CS+", function()
             ["con.rpg.damage"] = "- Direct damage",
             ["pro.rpg.smoke"] = "Creates smokescreen",
             ["con.rpg.smoke"] = "- Damage",
-            ["con.projectilecount"] = "- Projectile count",
+            ["pro.projectilecount"] = "+ Projectile count",
             ["con.projectilecount"] = "- Projectile count",
             ["pro.fcg_accelerator"] = "Up to 25% faster fire rate",
             ["con.fcg_accelerator"] = "Fire rate starts slower",
