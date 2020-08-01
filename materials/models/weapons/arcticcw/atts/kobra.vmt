@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\weapons\arcticcw\atts\kobra_d"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\weapons\arcticcw\atts\kobra_s"
+    "$translucent" "1"
+}

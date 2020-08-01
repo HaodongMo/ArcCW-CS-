@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\weapons\arcticcw\atts\docter_d"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\weapons\arcticcw\atts\docter_s"
+    "$translucent" "1"
+}

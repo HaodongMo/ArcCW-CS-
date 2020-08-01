@@ -1,0 +1,4 @@
+vertexlitgeneric
+{
+$baseTexture "models\weapons\arcticcw\atts\wpn_shotgun_xm26"
+}

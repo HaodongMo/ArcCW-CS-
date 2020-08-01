@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\weapons\arccw\ragingbull\barrel"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\weapons\arccw\ragingbull\barrel_ref"
+	"$selfillum" "1"
+	"$selfillummask" "models\weapons\arccw\ragingbull\barrel_emissive"
+}

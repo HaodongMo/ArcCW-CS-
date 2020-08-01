@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture"	"models\weapons\arcticcw\atts\m203"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\weapons\arcticcw\atts\m203_s"
+}

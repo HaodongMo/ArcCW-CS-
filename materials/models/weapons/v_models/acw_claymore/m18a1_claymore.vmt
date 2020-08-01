@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\weapons\v_models\acw_claymore\m18a1_claymore"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\weapons\v_models\acw_claymore\m18a1_claymore_s"
+}

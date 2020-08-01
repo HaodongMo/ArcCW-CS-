@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\weapons\v_models\acw_semtex\semtex"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\weapons\v_models\acw_semtex\semtex_ref"
+}

@@ -1,0 +1,7 @@
+"UnlitGeneric" 
+{ 
+    "$basetexture" "vgui/ttt/arccw_nade_frag" 
+    "$vertexcolor" 1 
+    "$vertexalpha" 1 
+    "$translucent" 1 
+} 

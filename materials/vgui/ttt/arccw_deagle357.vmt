@@ -1,0 +1,7 @@
+"UnlitGeneric" 
+{ 
+    "$basetexture" "vgui/ttt/arccw_deagle357" 
+    "$vertexcolor" 1 
+    "$vertexalpha" 1 
+    "$translucent" 1 
+} 

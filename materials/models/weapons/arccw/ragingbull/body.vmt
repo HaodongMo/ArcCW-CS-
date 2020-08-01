@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\weapons\arccw\ragingbull\body"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\weapons\arccw\ragingbull\body_ref"
+}
+
