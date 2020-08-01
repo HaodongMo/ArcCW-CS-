@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+	$baseTexture "models\weapons\V_models\acw_m72\law_composite"
+	//$bumpmap "models\weapons\V_models\acw_m72\law_composite_normal"
+	$phong 1
+	$phongboost .2
+	$phongexponent 5
+	$phongfresnelranges "[1 2 5]"
+	//$basemapalphaphongmask 1
+	$surfaceprop "weapon"
+	$translucent 1
+	
+}

@@ -1,0 +1,18 @@
+VertexLitGeneric
+{
+	$baseTexture "models\weapons\V_models\acw_m72\law_composite"
+	$bumpmap "models\weapons\V_models\acw_m72\law_composite_normal"
+	$envmap env_cubemap
+	$basealphaenvmapmask 1
+	$envmaptint "[0.05 0.05 0.05]"
+	$envmapfresnel 1.0
+	$envmapfresnelminmaxexp"[0.8 0.9 1]"
+	$phong 1
+	$phongboost 0.1
+	//$phongexponent 50
+	$phongexponenttexture "models\weapons\V_models\acw_m72\law_composite_exp"
+	$phongfresnelranges "[0.8 0.9 1]"
+	$basemapalphaphongmask 1
+	$surfaceprop "weapon"
+	
+}
