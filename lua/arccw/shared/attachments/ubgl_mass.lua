@@ -1,10 +1,13 @@
 att.PrintName = "MASS-12 (BUCK)"
 att.Icon = Material("entities/acwatt_ubgl_mass.png")
-att.Description = "Magazine-fed bolt-action 12 gauge underbarrel shotgun. Double tap +ZOOM to equip/dequip."
+att.Description = "Magazine-fed bolt-action 12 gauge underbarrel shotgun."
 att.Desc_Pros = {
     "pro.ubsg",
 }
 att.Desc_Cons = {
+}
+att.Desc_Neutrals = {
+    "info.toggleubgl"
 }
 att.AutoStats = true
 att.Slot = "ubgl"

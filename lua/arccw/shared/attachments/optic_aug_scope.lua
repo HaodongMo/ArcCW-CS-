@@ -1,6 +1,6 @@
 att.PrintName = "Integral Scope (1.5-3x)"
 att.Icon = Material("entities/acwatt_optic_aug_scope.png")
-att.Description = "Integrated scope designed specifically for a single weapon. Superior ergonomics compared to modular scopes. Includes a backup iron sight that can be toggled by double pressing +USE."
+att.Description = "Integrated scope designed specifically for a single weapon. Superior ergonomics compared to modular scopes. Includes a backup iron sight."
 
 att.SortOrder = 2.5
 
@@ -9,6 +9,9 @@ att.Desc_Pros = {
     "autostat.zoom",
 }
 att.Desc_Cons = {
+}
+att.Desc_Neutrals = {
+    "info.togglesight"
 }
 att.AutoStats = true
 att.Slot = "optic_aug_scope"

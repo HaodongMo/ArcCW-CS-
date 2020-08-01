@@ -1,10 +1,13 @@
 att.PrintName = "M203 (HE)"
 att.Icon = Material("entities/acwatt_ubgl_m203.png")
-att.Description = "American-made underbarrel grenade launcher. Fires high explosive shells. Double tap +ZOOM to equip/dequip."
+att.Description = "American-made underbarrel grenade launcher. Fires high explosive shells."
 att.Desc_Pros = {
     "pro.ubgl",
 }
 att.Desc_Cons = {
+}
+att.Desc_Neutrals = {
+    "info.toggleubgl"
 }
 att.AutoStats = true
 att.Slot = "ubgl"

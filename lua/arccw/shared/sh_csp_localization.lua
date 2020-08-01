@@ -1,4 +1,4 @@
-hook.Add("ArcCW_LocalizationLoaded", "ArcCW_CS+", function()
+local function AddLocalization()
     local addlang = {
         ["en"] = {
             ["pro.ignite"] = "Ignites targets",
@@ -43,7 +43,13 @@ hook.Add("ArcCW_LocalizationLoaded", "ArcCW_CS+", function()
             ["pro.ubsg"] = "Selectable underbarrel shotgun",
             ["pro.pistol_onehand"] = "Shoot while sprinting",
             ["pro.perk_underwater"] = "Shoot underwater",
+            ["con.fov"] = "- Field of View",
+            ["info.togglesight"] = "Double press +USE to toggle sights",
+            ["info.toggleubgl"] = "Double press +ZOOM to toggle underbarrel",
         }
     }
     table.Merge(ArcCW.LangTable, addlang)
-end)
+end
+
+hook.Add("ArcCW_LocalizationLoaded", "ArcCW_CS+", AddLocalization)
+if ArcCW.LangTable then AddLocalization() end -- Hotload

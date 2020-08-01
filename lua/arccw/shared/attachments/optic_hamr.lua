@@ -1,6 +1,6 @@
 att.PrintName = "HAMR (2.7x)"
 att.Icon = Material("entities/acwatt_optic_hamr.png")
-att.Description = "Zoom scope with integrated red dot sight. Switch between them with 2x +USE. Quite heavy."
+att.Description = "Zoom scope with integrated red dot sight. Quite heavy."
 
 att.SortOrder = 2.7
 
@@ -9,6 +9,9 @@ att.Desc_Pros = {
     "autostat.zoom",
 }
 att.Desc_Cons = {
+}
+att.Desc_Neutrals = {
+    "info.togglesight"
 }
 att.AutoStats = true
 att.Slot = "optic"
