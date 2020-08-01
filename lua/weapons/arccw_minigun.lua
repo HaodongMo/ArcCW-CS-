@@ -81,8 +81,7 @@ SWEP.Primary.Ammo = "ar2" -- what ammo type the gun uses
 SWEP.MagID = "minigun" -- the magazine pool this gun draws from
 SWEP.ShootVol = 130 -- volume of shoot sound
 SWEP.ShootPitch = 100 -- pitch of shoot sound
-SWEP.FirstShootSound = "weapons/arccw/negev/negev_clean_02.wav"
-SWEP.ShootSound = "weapons/arccw/negev/negev_clean_01.wav"
+SWEP.ShootSound = "weapons/arccw/minigun/minigun.wav"
 SWEP.ShootSoundSilenced = "weapons/arccw/m4a1/m4a1_silencer_01.wav"
 SWEP.DistantShootSound = "weapons/arccw/negev/negev-1-distant.wav" --weapons/arccw/m249/m249-1-distant.wav
 
