@@ -4,7 +4,6 @@ att.Description = "Shell containing a subcaliber projectile with discarding sabo
 att.Desc_Pros = {
 }
 att.Desc_Cons = {
-    "- Magazine capacity"
 }
 att.AutoStats = true
 att.Slot = "ammo_shotgun"

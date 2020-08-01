@@ -2,10 +2,9 @@ att.PrintName = "Fire and Brimstone"
 att.Icon = Material("entities/acwatt_ammo_api.png")
 att.Description = "Load weapon with armor-piercing incendiary ammo, which deals extra damage, ignites targets within its effective range, and has superior penetration. However, due to reliability issues, reduced-capacity magazines are used."
 att.Desc_Pros = {
-    "+ Ignites targets"
+    "pro.ignite"
 }
 att.Desc_Cons = {
-    "- Magazine capacity",
 }
 att.AutoStats = true
 att.Slot = "ammo_bullet"

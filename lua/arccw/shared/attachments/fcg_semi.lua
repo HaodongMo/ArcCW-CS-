@@ -4,7 +4,7 @@ att.Description = "Firemode conversion which allows only semi-auto fire."
 att.Desc_Pros = {
 }
 att.Desc_Cons = {
-    "- Semi-auto only"
+    "con.semi"
 }
 att.AutoStats = true
 att.Slot = "fcg"

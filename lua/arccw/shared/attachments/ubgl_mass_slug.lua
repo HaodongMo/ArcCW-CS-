@@ -2,7 +2,7 @@ att.PrintName = "MASS-12 (SLUG)"
 att.Icon = Material("entities/acwatt_ubgl_mass.png")
 att.Description = "Magazine-fed bolt-action 12 gauge underbarrel shotgun using slug rounds. Poor accuracy. Double tap +ZOOM to equip/dequip."
 att.Desc_Pros = {
-    "+ Selectable underbarrel shotgun",
+    "pro.ubsg",
 }
 att.Desc_Cons = {
 }

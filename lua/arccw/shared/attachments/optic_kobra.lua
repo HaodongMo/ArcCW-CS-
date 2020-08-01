@@ -7,7 +7,7 @@ att.SortOrder = 0.5
 att.ModelOffset = Vector(0, 0, -0.1)
 
 att.Desc_Pros = {
-    "+ Precision sight picture",
+    "autostat.holosight",
 }
 att.Desc_Cons = {
 }

@@ -2,12 +2,11 @@ att.PrintName = "Sputter"
 att.Icon = Material("entities/acwatt_fcg_sputter.png")
 att.Description = "Firemode conversion designed to circumvent early machine gun regulations by making the gun fire continuously until empty."
 att.Desc_Pros = {
-    "+ Sputter Mode",
+    "pro.sputter",
 }
 att.Desc_Cons = {
-    "- Mag dump only",
-    "- No safety",
-    "- No semi-auto",
+    "con.sputter",
+    "con.sputter2",
 }
 att.AutoStats = true
 att.Slot = "fcg"

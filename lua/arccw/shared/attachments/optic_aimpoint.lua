@@ -5,7 +5,7 @@ att.Description = "Tube-based red dot sight for rifles."
 att.SortOrder = 0
 
 att.Desc_Pros = {
-    "+ Precision sight picture",
+    "autostat.holosight",
 }
 att.Desc_Cons = {
 }

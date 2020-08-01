@@ -2,10 +2,10 @@ att.PrintName = "Concentric Choke"
 att.Icon = Material("entities/acwatt_muzz_circlechoke.png")
 att.Description = "Shotgun choke producing a circular pattern which is hollow in the middle."
 att.Desc_Pros = {
-    "+ Circle pattern",
+    "pro.muzz_circlechoke",
 }
 att.Desc_Cons = {
-    "- Pellets literally go around your point of aim"
+    "con.muzz_circlechoke"
 }
 att.AutoStats = false
 att.Slot = {"choke", "muzzle_shotgun"}

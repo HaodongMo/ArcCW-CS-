@@ -5,10 +5,10 @@ att.Description = "Integrated scope designed specifically for a single weapon. S
 att.SortOrder = 2.5
 
 att.Desc_Pros = {
-    "+ Precision sight picture",
+    "autostat.holosight",
+    "autostat.zoom",
 }
 att.Desc_Cons = {
-    "- Visible glint"
 }
 att.AutoStats = true
 att.Slot = "optic_aug_scope"

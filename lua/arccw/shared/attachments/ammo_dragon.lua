@@ -2,10 +2,9 @@ att.PrintName = "Dragon's Breath"
 att.Icon = Material("entities/acwatt_ammo_dragon.png")
 att.Description = "Incendiary load shotgun shells deal extra damage at both close and long range, as well as igniting targets within its effective range. However, a reduced magazine is equipped."
 att.Desc_Pros = {
-    "+ Ignite targets"
+    "pro.ignite"
 }
 att.Desc_Cons = {
-    "- Magazine capacity"
 }
 att.AutoStats = true
 att.Slot = "ammo_shotgun"

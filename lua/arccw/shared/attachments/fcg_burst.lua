@@ -2,10 +2,10 @@ att.PrintName = "Burst"
 att.Icon = Material("entities/acwatt_fcg_burst.png")
 att.Description = "Firemode conversion allowing for 3-round burst and semi-auto fire modes."
 att.Desc_Pros = {
-    "+ Burst-fire mode"
+    "pro.burst"
 }
 att.Desc_Cons = {
-    "- Burst delay"
+    "con.burstdelay"
 }
 att.AutoStats = true
 att.Slot = "fcg"

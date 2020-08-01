@@ -5,7 +5,7 @@ att.Description = "Integrated scope designed specifically for a single weapon. S
 att.SortOrder = 0.75
 
 att.Desc_Pros = {
-    "+ Precision sight picture",
+    "autostat.holosight",
     "+ No sight time penalty"
 }
 att.Desc_Cons = {

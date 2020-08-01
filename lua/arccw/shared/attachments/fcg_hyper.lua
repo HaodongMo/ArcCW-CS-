@@ -2,11 +2,11 @@ att.PrintName = "Hyper-Burst"
 att.Icon = Material("entities/acwatt_fcg_hyper.png")
 att.Description = "Firemode conversion allowing for a rapid two-round 'hyper burst' mode that fires both bullets in extremely rapid succession. Extra mechanical complexity increases weight and reduces effective precision."
 att.Desc_Pros = {
-    "+ Hyper-Burst",
-    "+ Insane rate of fire"
+    "pro.hyper",
+    "pro.hyper2"
 }
 att.Desc_Cons = {
-    "- Slow burst delay",
+    "con.burstdelay2",
 }
 att.AutoStats = true
 att.Slot = "fcg"

@@ -2,10 +2,10 @@ att.PrintName = "RPG-7 Tandem Warhead"
 att.Icon = Material("entities/acwatt_ammo_rpg7_he.png")
 att.Description = "Load tandem shaped charge warheads that have excellent direct hit damage but very poor splash damage."
 att.Desc_Pros = {
-    "+ Direct Hit Damage"
+    "pro.rpg.damage"
 }
 att.Desc_Cons = {
-    "- Splash Damage",
+    "con.rpg.splash",
 }
 att.AutoStats = true
 att.Slot = "ammo_rpg7_rocket"

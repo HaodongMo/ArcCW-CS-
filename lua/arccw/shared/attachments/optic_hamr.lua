@@ -5,8 +5,8 @@ att.Description = "Zoom scope with integrated red dot sight. Switch between them
 att.SortOrder = 2.7
 
 att.Desc_Pros = {
-    "+ Precision sight picture",
-    "+ Zoom",
+    "autostat.holosight",
+    "autostat.zoom",
 }
 att.Desc_Cons = {
 }

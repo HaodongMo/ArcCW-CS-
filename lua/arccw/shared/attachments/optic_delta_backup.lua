@@ -4,7 +4,7 @@ att.Description = "Backup red dot sight on 45 degree mount for use in combinatio
 att.InvAtt = "optic_delta"
 
 att.Desc_Pros = {
-    "+ Precision sight picture",
+    "autostat.holosight",
 }
 att.Desc_Cons = {
 }

@@ -4,7 +4,6 @@ att.Description = "High-quality competition-grade ammunition. Consistent power l
 att.Desc_Pros = {
 }
 att.Desc_Cons = {
-    "- Magazine capacity",
 }
 att.AutoStats = true
 att.Slot = "ammo_bullet"

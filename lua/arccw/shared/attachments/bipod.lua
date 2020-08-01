@@ -5,7 +5,6 @@ att.Description = "Bipod can be deployed by pressing +USE while in an eligible s
 att.SortOrder = 10
 
 att.Desc_Pros = {
-    "+ Bipod",
 }
 att.Desc_Cons = {
 }

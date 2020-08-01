@@ -5,7 +5,7 @@ att.Description = "Low-profile pistol sight with triangular sight."
 att.SortOrder = -0.5
 
 att.Desc_Pros = {
-    "+ Precision sight picture",
+    "autostat.holosight",
 }
 att.Desc_Cons = {
 }

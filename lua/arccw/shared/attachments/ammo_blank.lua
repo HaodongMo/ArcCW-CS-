@@ -2,10 +2,10 @@ att.PrintName = "Blanks"
 att.Icon = Material("entities/acwatt_ammo_blank.png")
 att.Description = "Cartridges which contain no bullet and only emit a loud bang and muzzle flash. Completely incapable of doing harm."
 att.Desc_Pros = {
-    "+ Harmless!",
+    "pro.ammo_blank",
 }
 att.Desc_Cons = {
-    "- Harmless.",
+    "con.ammo_blank",
 }
 att.AutoStats = true
 att.Slot = {"ammo_bullet", "ammo_shotgun"}

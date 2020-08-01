@@ -2,10 +2,10 @@ att.PrintName = "Accelerator"
 att.Icon = Material("entities/acwatt_fcg_accelerator.png")
 att.Description = "Firemode conversion that increases fire rate the longer you shoot, up to 7 shots. Includes 14-round burst."
 att.Desc_Pros = {
-    "+ Up to 25% faster fire rate",
+    "pro.fcg_accelerator",
 }
 att.Desc_Cons = {
-    "- Fire rate starts slower",
+    "con.fcg_accelerator",
 }
 att.Slot = "fcg"
 

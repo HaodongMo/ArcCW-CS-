@@ -2,7 +2,7 @@ att.PrintName = "Flash Hider"
 att.Icon = Material("entities/acwatt_muzz_flashhider.png")
 att.Description = "Muzzle device which hides muzzle flash while improving hip fire characteristics."
 att.Desc_Pros = {
-    "+ Flash hiding",
+    "pro.flashhiding",
 }
 att.Desc_Cons = {
 }

@@ -5,8 +5,8 @@ att.Description = "Magnified medium-range optic. ACOG stands for 'Advanced Comba
 att.SortOrder = 3
 
 att.Desc_Pros = {
-    "+ Precision sight picture",
-    "+ Zoom",
+    "autostat.holosight",
+    "autostat.zoom",
 }
 att.Desc_Cons = {
 }
@@ -32,7 +32,6 @@ att.HolosightBone = "holosight"
 att.HolosightPiece = "models/weapons/arccw/atts/acog_hsp.mdl"
 att.Colorable = true
 
-att.HolosightMagnification = 2
 att.HolosightBlackbox = true
 
 att.HolosightMagnification = 3

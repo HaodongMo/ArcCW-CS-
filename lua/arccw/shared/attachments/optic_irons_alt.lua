@@ -6,7 +6,7 @@ att.SortOrder = -25
 att.Free = true
 
 att.Desc_Pros = {
-    "+ Zoom",
+    "autostat.holosight",
 }
 att.Desc_Cons = {
     "- Field of View"

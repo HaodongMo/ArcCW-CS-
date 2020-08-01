@@ -5,8 +5,7 @@ att.Description = "Boxy holographic sight designed for rifles."
 att.SortOrder = 0.5
 
 att.Desc_Pros = {
-    "+ Precision sight picture",
-    "+ Focus"
+    "autostat.holosight",
 }
 att.Desc_Cons = {
 }

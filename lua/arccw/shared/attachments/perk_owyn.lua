@@ -2,9 +2,12 @@ att.PrintName = "Make It Count"
 att.Icon = Material("entities/acwatt_perk_owyn.png")
 att.Description = "The last bullet in your magazine does up to double bonus damage based on capacity."
 att.Desc_Pros = {
-    "+ Damage on last round"
+    "pro.perk_owyn"
 }
 att.Desc_Cons = {
+}
+att.Desc_Neutrals = {
+    "info.perk_owyn"
 }
 att.AutoStats = true
 att.Slot = "perk"

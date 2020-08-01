@@ -2,7 +2,7 @@ att.PrintName = "M203 (SMOKE)"
 att.Icon = Material("entities/acwatt_ubgl_m203.png")
 att.Description = "American-made underbarrel grenade launcher. Fires smoke shells, which produce a white smokescreen. Smoke can be seen through with thermal vision. Double tap +ZOOM to equip/dequip."
 att.Desc_Pros = {
-    "+ Selectable grenade launcher",
+    "pro.ubgl",
 }
 att.Desc_Cons = {
 }
