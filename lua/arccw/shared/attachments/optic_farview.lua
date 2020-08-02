@@ -5,11 +5,10 @@ att.Description = "High-magnification sniper rifle scope for long range combat."
 att.SortOrder = 7
 
 att.Desc_Pros = {
-    "+ Precision sight picture",
-    "+ Zoom",
+    "autostat.holosight",
+    "autostat.zoom",
 }
 att.Desc_Cons = {
-    "- Visible scope glint",
 }
 att.AutoStats = true
 att.Slot = "optic_sniper"

@@ -4,7 +4,7 @@ att.Description = "Blue-colored laser pointer. Bright blue dot improves accuracy
 att.Desc_Pros = {
 }
 att.Desc_Cons = {
-    "- Visible beam"
+    "con.beam"
 }
 att.AutoStats = true
 att.Slot = {"tac_pistol", "tac"}

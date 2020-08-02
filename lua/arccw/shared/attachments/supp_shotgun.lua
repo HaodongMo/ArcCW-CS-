@@ -4,7 +4,7 @@ att.Description = "Sound suppressor with large bore intended for shotguns. Reduc
 att.Desc_Pros = {
 }
 att.Desc_Cons = {
-    "- May obstruct sights"
+    "con.obstruction"
 }
 att.AutoStats = true
 att.Slot = "muzzle_shotgun"

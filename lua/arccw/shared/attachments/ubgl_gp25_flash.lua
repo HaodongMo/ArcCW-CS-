@@ -1,10 +1,13 @@
 att.PrintName = "GP25 (FLASH)"
 att.Icon = Material("entities/acwatt_ubgl_gp25.png")
-att.Description = "Russian underbarrel launcher with flashbang rounds. Flashbangs temporarily blind targets and deal a small amount of explosive damage. Double tap +ZOOM to equip/dequip."
+att.Description = "Russian underbarrel launcher with flashbang rounds. Flashbangs temporarily blind targets and deal a small amount of explosive damage."
 att.Desc_Pros = {
-    "+ Selectable grenade launcher",
+    "pro.ubgl",
 }
 att.Desc_Cons = {
+}
+att.Desc_Neutrals = {
+    "info.toggleubgl"
 }
 att.AutoStats = true
 att.Slot = "ubgl"

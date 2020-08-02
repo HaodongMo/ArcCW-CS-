@@ -2,10 +2,10 @@ att.PrintName = "Cross Choke"
 att.Icon = Material("entities/acwatt_muzz_crosschoke.png")
 att.Description = "Shotgun choke producing a cross-shaped pattern."
 att.Desc_Pros = {
-    "+ Cross pattern",
+    "pro.muzz_crosschoke",
 }
 att.Desc_Cons = {
-    "- Situational"
+    "con.situational"
 }
 att.AutoStats = false
 att.Slot = {"choke", "muzzle_shotgun"}

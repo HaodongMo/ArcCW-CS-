@@ -4,7 +4,7 @@ att.Description = "Powerful red laser aiming module. Laser assists with aiming f
 att.Desc_Pros = {
 }
 att.Desc_Cons = {
-    "- Visible beam"
+    "con.beam"
 }
 att.AutoStats = true
 att.Slot = "tac"

@@ -6,9 +6,9 @@ att.SortOrder = -25
 att.Free = true
 
 att.Desc_Pros = {
-    "+ Zoom",
+    "autostat.zoom",
 }
 att.Desc_Cons = {
-    "- Field of View"
+    "con.fov"
 }
 att.Slot = "irons_alt"

@@ -4,7 +4,7 @@ att.Description = "Shell containing a single heavy lead slug. More accurate, and
 att.Desc_Pros = {
 }
 att.Desc_Cons = {
-    "- Projectile count"
+    "con.projectilecount"
 }
 att.AutoStats = true
 att.Slot = "ammo_shotgun"

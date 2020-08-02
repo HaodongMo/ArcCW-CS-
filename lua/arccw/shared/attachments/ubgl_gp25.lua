@@ -1,10 +1,13 @@
 att.PrintName = "GP25 (HEAT)"
 att.Icon = Material("entities/acwatt_ubgl_gp25.png")
-att.Description = "Russian underbarrel launcher with anti-tank rocket rounds. Rockets travel straight and deal heavy direct damage with light splash damage. Double tap +ZOOM to equip/dequip."
+att.Description = "Russian underbarrel launcher with anti-tank rocket rounds. Rockets travel straight and deal heavy direct damage with light splash damage."
 att.Desc_Pros = {
-    "+ Selectable grenade launcher",
+    "pro.ubgl",
 }
 att.Desc_Cons = {
+}
+att.Desc_Neutrals = {
+    "info.toggleubgl"
 }
 att.AutoStats = true
 att.Slot = "ubgl"

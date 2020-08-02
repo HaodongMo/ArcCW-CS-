@@ -5,7 +5,7 @@ att.Description = "Lightweight reflex sight for rifles. Small frame allows for h
 att.SortOrder = 0
 
 att.Desc_Pros = {
-    "+ Precision sight picture",
+    "autostat.holosight",
 }
 att.Desc_Cons = {
 }

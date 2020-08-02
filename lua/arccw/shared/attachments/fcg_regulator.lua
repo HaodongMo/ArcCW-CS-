@@ -2,10 +2,10 @@ att.PrintName = "Regulator"
 att.Icon = Material("entities/acwatt_fcg_regulator.png")
 att.Description = "Fire control device that allows the selection of varying fire rates."
 att.Desc_Pros = {
-    "+ Selectable fire rate",
+    "pro.regulator",
 }
 att.Desc_Cons = {
-    "- Maximum 80% fire rate"
+    "con.regulator"
 }
 att.Slot = "fcg"
 

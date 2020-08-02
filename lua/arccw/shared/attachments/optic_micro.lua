@@ -5,8 +5,8 @@ att.Description = "Miniature optic intended for low-magnification applications a
 att.SortOrder = 2
 
 att.Desc_Pros = {
-    "+ Precision sight picture",
-    "+ Zoom",
+    "autostat.holosight",
+    "autostat.zoom",
 }
 att.Desc_Cons = {
 }

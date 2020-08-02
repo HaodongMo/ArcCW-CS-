@@ -5,11 +5,10 @@ att.Description = "Sniper rifle optic with the ability to be adjusted between lo
 att.SortOrder = 4.5
 
 att.Desc_Pros = {
-    "+ Precision sight picture",
-    "+ Zoom",
+    "autostat.holosight",
+    "autostat.zoom",
 }
 att.Desc_Cons = {
-    "- Visible scope glint",
 }
 att.AutoStats = true
 att.Slot = "optic_sniper"

@@ -4,7 +4,7 @@ att.Description = "Green laser aiming module. Reduces time taken to bring sights
 att.Desc_Pros = {
 }
 att.Desc_Cons = {
-    "- Visible beam"
+    "con.beam"
 }
 att.AutoStats = true
 att.Slot = {"tac_pistol", "tac"}

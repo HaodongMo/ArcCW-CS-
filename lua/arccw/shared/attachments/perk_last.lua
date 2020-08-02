@@ -4,7 +4,7 @@ att.Description = "Significant damage multiplier at the cost of being able to fi
 att.Desc_Pros = {
 }
 att.Desc_Cons = {
-    "- One round only",
+    "con.perk_last",
 }
 att.AutoStats = true
 att.Slot = "perk"

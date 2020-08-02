@@ -5,12 +5,11 @@ att.Description = "Heavy infrared thermal vision scope. Capable of highlighting 
 att.SortOrder = 50
 
 att.Desc_Pros = {
-    "+ Precision sight picture",
-    "+ Zoom",
-    "+ Thermal vision"
+    "autostat.holosight",
+    "autostat.zoom",
+    "autostat.thermal"
 }
 att.Desc_Cons = {
-    "- Visible scope glint",
 }
 att.AutoStats = true
 att.Slot = "optic"

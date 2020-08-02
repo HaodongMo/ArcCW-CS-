@@ -4,7 +4,7 @@ att.Description = "Small lightweight laser for pistols. Red beam assists with ai
 att.Desc_Pros = {
 }
 att.Desc_Cons = {
-    "- Visible beam"
+    "con.beam"
 }
 att.AutoStats = true
 att.Slot = {"tac_pistol", "tac"}
