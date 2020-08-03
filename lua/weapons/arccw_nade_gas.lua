@@ -32,7 +32,8 @@ SWEP.MuzzleVelocity = 1000
 SWEP.ShootEntity = "arccw_thr_gas"
 
 SWEP.NPCWeaponType = "weapon_grenade"
-SWEP.NPCWeight = 75
+SWEP.NPCWeight = 50
+SWEP.TTTWeaponType = {"weapon_zm_molotov", "weapon_ttt_smokegrenade"}
 
 SWEP.Animations = {
     ["draw"] = {

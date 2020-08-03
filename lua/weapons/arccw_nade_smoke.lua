@@ -33,6 +33,7 @@ SWEP.ShootEntity = "arccw_thr_smoke"
 
 SWEP.NPCWeaponType = "weapon_grenade"
 SWEP.NPCWeight = 100
+SWEP.TTTWeaponType = "weapon_ttt_smokegrenade"
 
 SWEP.KillIconAlias = "arccw_nade_flash"
 

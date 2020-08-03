@@ -32,7 +32,8 @@ SWEP.MuzzleVelocity = 1000
 SWEP.ShootEntity = "arccw_thr_thermite"
 
 SWEP.NPCWeaponType = "weapon_grenade"
-SWEP.NPCWeight = 75
+SWEP.NPCWeight = 100
+SWEP.TTTWeaponType = "weapon_zm_molotov"
 
 SWEP.KillIconAlias = "arccw_nade_flash"
 

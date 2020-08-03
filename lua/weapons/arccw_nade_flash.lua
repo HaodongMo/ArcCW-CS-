@@ -30,6 +30,7 @@ SWEP.Primary.ClipSize = 1
 
 SWEP.NPCWeaponType = "weapon_grenade"
 SWEP.NPCWeight = 100
+SWEP.TTTWeaponType = "weapon_ttt_confgrenade"
 
 SWEP.MuzzleVelocity = 1100
 SWEP.ShootEntity = "arccw_thr_flash"
