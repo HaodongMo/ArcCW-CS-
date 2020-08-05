@@ -2,7 +2,7 @@ att.PrintName = "Integral Ring (HOLO)"
 att.Icon = Material("entities/acwatt_optic_p90_ring.png")
 att.Description = "Integrated scope designed specifically for a single weapon. Superior ergonomics compared to modular scopes."
 
-att.SortOrder = 0.75
+att.SortOrder = 100
 
 att.Desc_Pros = {
     "autostat.holosight",
