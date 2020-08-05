@@ -287,11 +287,13 @@ SWEP.Animations = {
         Source = "cycle2",
         Time = 0.75,
         ShellEjectAt = 0.3,
+        MinProgress = 0.65,
     },
     ["cycle_iron"] = {
         Source = "cycle1",
         Time = 0.75,
         ShellEjectAt = 0.3,
+        MinProgress = 0.65,
     },
     ["sgreload_start"] = {
         Source = "start_reload",
