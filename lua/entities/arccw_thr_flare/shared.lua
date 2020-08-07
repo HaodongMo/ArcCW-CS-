@@ -70,9 +70,11 @@ function ENT:Initialize()
             self:SetPos(tr.HitPos)
         end)
 
-        timer.Simple(GetConVar("arccw_equipmenttime"):GetInt(), function()
-            SafeRemoveEntity(self)
-        end)
+        if engine.ActiveGamemode() ~= "terrortown" then
+            timer.Simple(GetConVar("arccw_equipmenttime"):GetInt(), function()
+                SafeRemoveEntity(self)
+            end)
+        end
     end
 end
 

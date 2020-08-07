@@ -40,6 +40,9 @@ function ENT:Initialize()
         self.SpawnTime = CurTime()
         self.TheAngle = self:GetAngles()
         self.FuseTime = GetConVar("arccw_equipmenttime"):GetInt()
+        if engine.ActiveGamemode() ~= "terrortown" then
+            self.FuseTime = -1
+        end
 
         timer.Simple(0, function()
             if !IsValid(self) then return end
@@ -77,17 +80,18 @@ end
 
 function ENT:Use(act, call, calltype, integer)
     if act:IsPlayer() then
-        act:GiveAmmo(1, "grenade")
+        if weapons.GetStored("arccw_nade_claymore").Primary.Ammo ~= "" then
+            act:GiveAmmo(1, weapons.GetStored("arccw_nade_claymore").Primary.Ammo)
+        end
         act:Give("arccw_nade_claymore", true)
     end
 
     self:EmitSound("weapons/arccw/c4/c4_disarm.wav", 75)
-
     self:Remove()
 end
 
 function ENT:Think()
-    if SERVER and CurTime() - self.SpawnTime >= self.FuseTime then
+    if SERVER and self.FuseTime >= 0 and CurTime() - self.SpawnTime >= self.FuseTime then
         self:Detonate()
     end
 
