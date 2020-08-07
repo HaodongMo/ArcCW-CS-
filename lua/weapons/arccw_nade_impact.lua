@@ -58,7 +58,7 @@ if engine.ActiveGamemode() == "terrortown" then
     SWEP.AutoSpawnable = false
     SWEP.EquipMenuData = {
         type = "Grenade",
-        desc = "Impact detonated explosive grenade.\nComes in a pack of 3."
+        desc = "Impact detonated explosive grenade.\nComes in a pack of 5."
     }
     SWEP.Icon = "arccw/ttticons/arccw_nade_impact.png"
 
@@ -71,5 +71,5 @@ if engine.ActiveGamemode() == "terrortown" then
         LANG.AddToLanguage("English", "ammo_arccw_nade_impact", SWEP.PrintName)
     end
     SWEP.Primary.Ammo = "arccw_nade_impact"
-    SWEP.ForceDefaultClip = 3
+    SWEP.ForceDefaultClip = 5
 end
