@@ -28,6 +28,7 @@ SWEP.Throwing = true
 
 SWEP.Primary.ClipSize = 1
 
+SWEP.TTTWeaponType = "weapon_ttt_confgrenade"
 SWEP.NPCWeaponType = "weapon_grenade"
 SWEP.NPCWeight = 100
 

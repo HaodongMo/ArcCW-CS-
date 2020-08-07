@@ -31,6 +31,10 @@ SWEP.Primary.ClipSize = 1
 SWEP.MuzzleVelocity = 1000
 SWEP.ShootEntity = "arccw_thr_frag"
 
+SWEP.TTTWeaponType = "weapon_ttt_confgrenade"
+SWEP.NPCWeaponType = "weapon_grenade"
+SWEP.NPCWeight = 50
+
 SWEP.Animations = {
     ["draw"] = {
         Source = "deploy",

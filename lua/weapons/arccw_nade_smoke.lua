@@ -31,8 +31,9 @@ SWEP.Primary.ClipSize = 1
 SWEP.MuzzleVelocity = 1000
 SWEP.ShootEntity = "arccw_thr_smoke"
 
+SWEP.TTTWeaponType = "weapon_ttt_smokegrenade"
 SWEP.NPCWeaponType = "weapon_grenade"
-SWEP.NPCWeight = 100
+SWEP.NPCWeight = 50
 
 SWEP.KillIconAlias = "arccw_nade_flash"
 
