@@ -8,7 +8,7 @@ att.Desc_Cons = {
 att.AutoStats = true
 att.Slot = {"muzzle", "barrel"}
 
-att.SortOrder = 10
+att.SortOrder = 5
 
 att.Mult_ShootPitch = 1.02
 att.Mult_AccuracyMOA = 1.5
