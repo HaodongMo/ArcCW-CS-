@@ -28,6 +28,4 @@ att.HolosightReticle = Material("holosights/dot.png")
 att.HolosightSize = 0.75
 att.HolosightBone = "holosight"
 
-att.Mult_SightTime = 1.05
-
 att.Colorable = true

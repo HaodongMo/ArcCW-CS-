@@ -1,6 +1,6 @@
 att.PrintName = "HAMR (2.7x)"
 att.Icon = Material("entities/acwatt_optic_hamr.png")
-att.Description = "Zoom scope with integrated red dot sight. Quite heavy."
+att.Description = "Zoom scope with integrated red dot sight. Slightly heavier than similar scopes."
 
 att.SortOrder = 2.7
 
@@ -55,9 +55,8 @@ att.AdditionalSights = {
 att.Holosight = true
 att.HolosightPiece = "models/weapons/arccw/atts/hamr_hsp.mdl"
 
-att.Mult_SightTime = 1.25
-att.Mult_SightedSpeedMult = 0.8
-att.Mult_SpeedMult = 0.96
+att.Mult_SightTime = 1.15
+att.Mult_SightedSpeedMult = 0.9
 
 att.ColorOptionsTable = {
     Color(255, 50, 50),

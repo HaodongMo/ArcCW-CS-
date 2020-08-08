@@ -43,6 +43,6 @@ att.HolosightBlackbox = true
 att.HolosightMagnificationMin = 2
 att.HolosightMagnificationMax = 5
 
-att.Mult_SightTime = 1.25
-att.Mult_SightedSpeedMult = 0.8
-att.Mult_SpeedMult = 0.96
+att.Mult_SightTime = 1.15
+att.Mult_SightedSpeedMult = 0.9
+att.Mult_SpeedMult = 0.98
