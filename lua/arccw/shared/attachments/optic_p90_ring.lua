@@ -6,10 +6,8 @@ att.SortOrder = 100
 
 att.Desc_Pros = {
     "autostat.holosight",
-    "+ No sight time penalty"
 }
 att.Desc_Cons = {
-    "- Bulky sight picture"
 }
 att.Slot = "optic_p90_ring"
 
