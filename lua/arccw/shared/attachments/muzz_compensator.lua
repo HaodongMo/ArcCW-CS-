@@ -8,15 +8,15 @@ att.Desc_Cons = {
 att.AutoStats = true
 att.Slot = {"muzzle", "muzzle_shotgun"}
 
+att.SortOrder = 50
+
 att.Model = "models/weapons/arccw/atts/muzz_compensator.mdl"
 
 att.Mult_ShootPitch = 1.025
 
-att.Mult_SightTime = 1.15
+att.Mult_SightTime = 1.05
 
 att.Add_BarrelLength = 3
 
 att.Mult_Recoil = 1.05
-att.Mult_RecoilSide = 0.75
-
-att.Mult_SightedMoveSpeed = 0.95
+att.Mult_RecoilSide = 0.7

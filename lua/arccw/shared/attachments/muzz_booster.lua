@@ -8,16 +8,18 @@ att.Desc_Cons = {
 att.AutoStats = true
 att.Slot = {"muzzle"}
 
+att.SortOrder = 50
+
 att.Model = "models/weapons/arccw/atts/muzz_booster.mdl"
 
 att.Mult_ShootPitch = 0.975
-att.Mult_ShootVol = 1.05
+--att.Mult_ShootVol = 1.05
 
 att.Mult_SightTime = 1.05
 
 att.Add_BarrelLength = 4
 
-att.Mult_Recoil = 1.15
-att.Mult_RecoilSide = 1.15
+att.Mult_Recoil = 1.25
+--att.Mult_RecoilSide = 1.15
 
-att.Mult_RPM = 1.1
+att.Mult_RPM = 1.15

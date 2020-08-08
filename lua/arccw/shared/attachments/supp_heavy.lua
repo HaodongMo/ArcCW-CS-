@@ -9,6 +9,8 @@ att.Desc_Cons = {
 att.AutoStats = true
 att.Slot = "muzzle"
 
+att.SortOrder = 15
+
 att.Model = "models/weapons/arccw/atts/supp_heavy.mdl"
 
 att.Silencer = true

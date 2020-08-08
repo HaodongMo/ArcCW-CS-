@@ -10,6 +10,8 @@ att.Desc_Cons = {
 att.AutoStats = false
 att.Slot = {"choke", "muzzle_shotgun"}
 
+att.SortOrder = 20
+
 att.Mult_AccuracyMOA = 0.25
 
 att.Override_ShotgunSpreadPattern = true

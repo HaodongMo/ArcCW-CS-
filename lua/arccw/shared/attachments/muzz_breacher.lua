@@ -8,6 +8,8 @@ att.Desc_Cons = {
 att.AutoStats = true
 att.Slot = {"muzzle", "muzzle_shotgun"}
 
+att.SortOrder = 50
+
 att.Model = "models/weapons/arccw/atts/muzz_breacher.mdl"
 
 att.Mult_MeleeDamage = 1.5
