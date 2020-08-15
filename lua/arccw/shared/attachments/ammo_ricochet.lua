@@ -11,7 +11,7 @@ att.Slot = "ammo_bullet"
 
 att.NotForNPC = true
 
-att.Mult_Damage = 0.8
+att.Mult_Damage = 0.85
 att.Mult_Penetration = 0
 -- att.Mult_Recoil = 1.15
 -- att.Mult_SpeedMult = 0.9
@@ -26,9 +26,9 @@ att.Hook_BulletHit = function(wep, data)
     if not data.tr.HitNonWorld and data.tr.HitPos then
         local dir = data.tr.Normal - 2 * (data.tr.Normal:Dot(data.tr.HitNormal)) * data.tr.HitNormal
         local r = ents.Create("arccw_ricochet")
-        r.FireTime = CurTime() + 0.01
+        r.FireTime = CurTime()
         r.Owner = wep.Owner
-        r.Damage = math.ceil(data.damage * 1.5)
+        r.Damage = math.ceil(data.damage * 2)
         r.Direction = dir
         r.Inflictor = wep
         r:SetPos(data.tr.HitPos)
