@@ -14,8 +14,8 @@ att.Slot = "perk"
 
 att.NotForNPC = true
 
-att.Mult_AccuracyMOA = 1.2
-att.Mult_ReloadTime = 1.1
+--att.Mult_AccuracyMOA = 1.2
+--att.Mult_ReloadTime = 1.1
 
 att.Hook_Compatible = function(wep)
     if wep.RegularClipSize <= 2 or wep.ShotgunReload or wep.Num > 1 then return false end
