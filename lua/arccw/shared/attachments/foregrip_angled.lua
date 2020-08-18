@@ -12,6 +12,7 @@ att.AutoStats = true
 att.Slot = "foregrip"
 
 att.LHIK = true
+att.MountPositionOverride = 1
 
 att.Model = "models/weapons/arccw/atts/foregrip_angled.mdl"
 
