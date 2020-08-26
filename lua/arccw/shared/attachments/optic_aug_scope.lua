@@ -47,20 +47,11 @@ att.AdditionalSights = {
         Pos = Vector(0.05, 10.064, -7.4),
         Ang = Angle(0.5, -3.1, -10.853),
         Magnification = 1.1,
-        HolosightData = {
-            Holosight = true,
-            HolosightReticle = Material("hud/scopes/circle.png"),
-            HolosightNoFlare = true,
-            HolosightSize = 8,
-            HolosightBlackbox = true,
-            Colorable = true
-        },
     },
 }
 
 att.ScopeGlint = true
 
-att.Holosight = true
 att.HolosightPiece = "models/weapons/arccw/atts/augscope_hsp.mdl"
 
 att.Mult_SightTime = 1.05

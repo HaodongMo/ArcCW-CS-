@@ -202,7 +202,7 @@ SWEP.Attachments = {
         Bone = "v_weapon.m4_Parent",
         Offset = {
             vpos = Vector(0.152, -3.626, -7.305),
-            vang = Angle(-92.269, 0, -90),
+            vang = Angle(-92.269, 0, -85 + 3.64274),
             wpos = Vector(14.329, 0.602, -4.453),
             wang = Angle(-10.216, 0, 180)
         },
