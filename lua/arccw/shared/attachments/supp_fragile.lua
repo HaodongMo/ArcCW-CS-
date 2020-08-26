@@ -11,11 +11,7 @@ att.Desc_Cons = {
 att.AutoStats = true
 att.Slot = "muzzle"
 
-att.Model = "models/props_junk/garbage_plasticbottle003a.mdl"
-
-att.ModelScale = Vector(1, 1, 1)
-att.ModelOffset = Vector(0, 0, 90)
-att.OffsetAng = Angle(0, 0, 0)
+att.Model = "models/weapons/arccw/atts/supp_heavy.mdl"
 
 att.Silencer = true
 att.Override_MuzzleEffect = "muzzleflash_suppressed"
