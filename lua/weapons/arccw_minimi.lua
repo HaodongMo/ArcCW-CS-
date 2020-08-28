@@ -34,11 +34,6 @@ SWEP.DamageType = DMG_BULLET
 SWEP.ShootEntity = nil -- entity to fire, if any
 SWEP.MuzzleVelocity = 900 -- projectile or phys bullet muzzle velocity
 -- IN M/S
-
-SWEP.TracerNum = 1 -- tracer every X
-SWEP.TracerCol = Color(255, 25, 25)
-SWEP.TracerWidth = 3
-
 SWEP.ChamberSize = 0 -- how many rounds can be chambered.
 SWEP.Primary.ClipSize = 100 -- DefaultClip is automatically set.
 SWEP.ExtendedClipSize = 150
