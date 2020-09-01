@@ -289,8 +289,8 @@ SWEP.Animations = {
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_SMG1,
         FrameRate = 30,
         LHIK = true,
-        LHIKIn = 0.5,
-        LHIKOut = 0.5,
+        LHIKIn = 0.8,
+        LHIKOut = 0.6,
     },
     ["reload"] = {
         Source = "reload_part",
@@ -298,7 +298,7 @@ SWEP.Animations = {
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_SMG1,
         FrameRate = 30,
         LHIK = true,
-        LHIKIn = 0.5,
-        LHIKOut = 0.5,
+        LHIKIn = 0.8,
+        LHIKOut = 0.6,
     },
 }
