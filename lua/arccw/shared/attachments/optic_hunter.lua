@@ -17,9 +17,9 @@ att.Model = "models/weapons/arccw/atts/hunter.mdl"
 
 att.AdditionalSights = {
     {
-        Pos = Vector(0, 20, -1.055),
+        Pos = Vector(0, 15, -1.055),
         Ang = Angle(0, 0, 0),
-        Magnification = 2.25,
+        Magnification = 1.8,
         ScrollFunc = ArcCW.SCROLL_ZOOM,
         ZoomLevels = 6,
         ZoomSound = "weapons/arccw/fiveseven/fiveseven_slideback.wav",

@@ -19,9 +19,9 @@ att.Model = "models/weapons/arccw/atts/farview.mdl"
 
 att.AdditionalSights = {
     {
-        Pos = Vector(0, 25, -1.5),
+        Pos = Vector(0, 18, -1.5),
         Ang = Angle(0, 0, 0),
-        Magnification = 2.25,
+        Magnification = 1.8,
         ScrollFunc = ArcCW.SCROLL_ZOOM,
         ZoomLevels = 12,
         ZoomSound = "weapons/arccw/fiveseven/fiveseven_slideback.wav",
@@ -32,9 +32,9 @@ att.AdditionalSights = {
 att.ScopeGlint = true
 
 att.Holosight = true
-att.HolosightReticle = Material("hud/scopes/mildot.png")
+att.HolosightReticle = Material("hud/scopes/mildot.png", "smooth")
 att.HolosightNoFlare = true
-att.HolosightSize = 25
+att.HolosightSize = 32
 att.HolosightBone = "holosight"
 att.HolosightPiece = "models/weapons/arccw/atts/farview_hsp.mdl"
 att.Colorable = true

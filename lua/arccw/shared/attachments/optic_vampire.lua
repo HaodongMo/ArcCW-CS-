@@ -32,7 +32,7 @@ att.AdditionalSights = {
 att.ScopeGlint = true
 
 att.Holosight = true
-att.HolosightReticle = Material("hud/scopes/thermal.png")
+att.HolosightReticle = Material("hud/scopes/thermal.png", "smooth")
 att.HolosightNoFlare = true
 att.HolosightSize = 16
 att.HolosightBone = "holosight"

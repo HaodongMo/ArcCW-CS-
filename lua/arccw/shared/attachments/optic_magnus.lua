@@ -17,9 +17,9 @@ att.Model = "models/weapons/arccw/atts/magnus.mdl"
 
 att.AdditionalSights = {
     {
-        Pos = Vector(0, 20, -1.489),
+        Pos = Vector(0, 15, -1.489),
         Ang = Angle(0, 0, 0),
-        Magnification = 2.25,
+        Magnification = 1.8,
         ScrollFunc = ArcCW.SCROLL_ZOOM,
         ZoomLevels = 6,
         ZoomSound = "weapons/arccw/fiveseven/fiveseven_slideback.wav",
@@ -30,9 +30,9 @@ att.AdditionalSights = {
 att.ScopeGlint = true
 
 att.Holosight = true
-att.HolosightReticle = Material("hud/scopes/rangefinder.png")
+att.HolosightReticle = Material("hud/scopes/rangefinder.png", "smooth")
 att.HolosightNoFlare = true
-att.HolosightSize = 17
+att.HolosightSize = 15
 att.HolosightBone = "holosight"
 att.HolosightPiece = "models/weapons/arccw/atts/magnus_hsp.mdl"
 att.Colorable = true

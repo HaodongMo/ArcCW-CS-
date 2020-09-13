@@ -1,6 +1,6 @@
 att.PrintName = "T-1 (LP)"
 att.Icon = Material("entities/acwatt_optic_t1.png")
-att.Description = "Mid-profile red dot sight with round body."
+att.Description = "Mid-profile red dot sight with magnification properties."
 
 att.SortOrder = -0.5
 
@@ -16,16 +16,16 @@ att.Model = "models/weapons/arccw/atts/t1.mdl"
 
 att.AdditionalSights = {
     {
-        Pos = Vector(0, 7, -0.594),
+        Pos = Vector(0, 4, -0.594),
         Ang = Angle(0, 0, 0),
-        Magnification = 1.5,
+        Magnification = 1.4,
         ScrollFunc = ArcCW.SCROLL_NONE
     }
 }
 
 att.Holosight = true
 att.HolosightReticle = Material("holosights/dot.png")
-att.HolosightSize = 0.5
+att.HolosightSize = 0.3
 att.HolosightBone = "holosight"
 
 att.HolosightMagnification = 1

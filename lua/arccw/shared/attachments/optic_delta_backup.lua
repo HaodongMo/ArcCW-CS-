@@ -27,7 +27,7 @@ att.AdditionalSights = {
 
 att.Holosight = true
 att.HolosightReticle = Material("holosights/dot.png")
-att.HolosightSize = 0.75
+att.HolosightSize = 0.4
 att.HolosightBone = "holosight"
 
 att.Mult_SightTime = 1.1

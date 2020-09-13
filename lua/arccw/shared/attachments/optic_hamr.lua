@@ -20,7 +20,7 @@ att.Model = "models/weapons/arccw/atts/hamr.mdl"
 
 att.AdditionalSights = {
     {
-        Pos = Vector(0, 12, -1.525),
+        Pos = Vector(0, 20, -1.525),
         Ang = Angle(0, 0, 0),
         Magnification = 2,
         ScopeMagnification = 2.7,
@@ -30,7 +30,7 @@ att.AdditionalSights = {
             HolosightMagnification = 2.7,
             HolosightReticle = Material("hud/scopes/hamr.png"),
             HolosightNoFlare = true,
-            HolosightSize = 12,
+            HolosightSize = 8,
             HolosightBlackbox = true,
             Colorable = true,
             HolosightPiece = "models/weapons/arccw/atts/hamr_hsp.mdl"
@@ -38,14 +38,14 @@ att.AdditionalSights = {
         IgnoreExtra = true
     },
     {
-        Pos = Vector(0, 7, -3.05),
+        Pos = Vector(0, 10, -3.05),
         Ang = Angle(0, 0, 0),
         Magnification = 1.5,
         HolosightBone = "holosight",
         HolosightData = {
             Holosight = true,
             HolosightReticle =  Material("holosights/dot.png"),
-            HolosightSize = 0.75,
+            HolosightSize = 0.5,
             Colorable = true,
             HolosightNoHSP = true
         }

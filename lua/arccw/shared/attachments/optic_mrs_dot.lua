@@ -29,7 +29,7 @@ att.InvAtt = "optic_mrs"
 
 att.Holosight = true
 att.HolosightReticle = Material("holosights/dot.png")
-att.HolosightSize = 0.5
+att.HolosightSize = 0.3
 att.HolosightBone = "holosight"
 
 att.Mult_SightTime = 1.05

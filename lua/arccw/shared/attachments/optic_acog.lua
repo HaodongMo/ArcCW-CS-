@@ -17,7 +17,7 @@ att.Model = "models/weapons/arccw/atts/acog.mdl"
 
 att.AdditionalSights = {
     {
-        Pos = Vector(0, 10, -1.469),
+        Pos = Vector(-0.025, 12, -1.403),
         Ang = Angle(0, 0, 0),
         Magnification = 2,
         IgnoreExtra = true
@@ -26,7 +26,7 @@ att.AdditionalSights = {
 
 att.Holosight = true
 att.HolosightReticle = Material("hud/scopes/acog.png")
-att.HolosightNoFlare = true
+att.HolosightFlare = Material("hud/scopes/acog_flare.png")
 att.HolosightSize = 10
 att.HolosightBone = "holosight"
 att.HolosightPiece = "models/weapons/arccw/atts/acog_hsp.mdl"

@@ -16,7 +16,7 @@ att.Model = "models/weapons/arccw/atts/reflex.mdl"
 
 att.AdditionalSights = {
     {
-        Pos = Vector(0, 7, -1.208),
+        Pos = Vector(0, 5, -1.208),
         Ang = Angle(0, 0, 0),
         Magnification = 1.1,
         ScrollFunc = ArcCW.SCROLL_NONE
@@ -25,7 +25,7 @@ att.AdditionalSights = {
 
 att.Holosight = true
 att.HolosightReticle = Material("holosights/dot.png")
-att.HolosightSize = 0.5
+att.HolosightSize = 0.3
 att.HolosightBone = "holosight"
 
 att.Mult_SightTime = 1.025
