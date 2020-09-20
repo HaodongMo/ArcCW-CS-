@@ -2,7 +2,7 @@ att.PrintName = "Farview (4-9x)"
 att.Icon = Material("entities/acwatt_optic_farview.png")
 att.Description = "High-magnification sniper rifle scope for long range combat."
 
-att.SortOrder = 7
+att.SortOrder = 9
 
 att.Desc_Pros = {
     "autostat.holosight",

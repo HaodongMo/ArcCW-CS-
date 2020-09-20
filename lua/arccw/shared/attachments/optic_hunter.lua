@@ -2,7 +2,7 @@ att.PrintName = "Hunter (2-5x)"
 att.Icon = Material("entities/acwatt_optic_hunter.png")
 att.Description = "Adjustable medium-long range sniper optic."
 
-att.SortOrder = 4
+att.SortOrder = 5
 
 att.Desc_Pros = {
     "autostat.holosight",

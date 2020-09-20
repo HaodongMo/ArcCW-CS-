@@ -2,7 +2,7 @@ att.PrintName = "Magnus (3-6x)"
 att.Icon = Material("entities/acwatt_optic_magnus.png")
 att.Description = "Sniper rifle optic with the ability to be adjusted between long and medium range magnification options."
 
-att.SortOrder = 4.5
+att.SortOrder = 6
 
 att.Desc_Pros = {
     "autostat.holosight",
