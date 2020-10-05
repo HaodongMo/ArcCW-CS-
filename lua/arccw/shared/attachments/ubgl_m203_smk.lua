@@ -39,7 +39,7 @@ end
 
 att.Hook_LHIK_TranslateAnimation = function(wep, key)
     if key == "idle" then
-        if wep:GetNWBool("ubgl") then
+        if wep:GetInUBGL() then
             return "idle_ready"
         else
             return "idle"
