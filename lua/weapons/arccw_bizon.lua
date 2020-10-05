@@ -34,7 +34,7 @@ SWEP.MuzzleVelocity = 350 -- projectile or phys bullet muzzle velocity
 
 SWEP.CanFireUnderwater = false
 SWEP.ChamberSize = 1 -- how many rounds can be chambered.
-SWEP.Primary.ClipSize = 82 -- DefaultClip is automatically set.
+SWEP.Primary.ClipSize = 64 -- DefaultClip is automatically set.
 SWEP.ExtendedClipSize = 82
 SWEP.ReducedClipSize = 44
 
