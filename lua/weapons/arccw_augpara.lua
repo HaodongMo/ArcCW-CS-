@@ -1,6 +1,6 @@
 SWEP.Base = "arccw_aug"
 SWEP.Spawnable = true -- this obviously has to be set to true
-SWEP.Category = "ArcCW - Firearms" -- edit this if you like
+SWEP.Category = "ArcCW - CS+" -- edit this if you like
 SWEP.AdminOnly = false
 
 SWEP.PrintName = "Para-9"
