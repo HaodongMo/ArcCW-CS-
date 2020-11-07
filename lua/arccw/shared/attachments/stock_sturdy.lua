@@ -9,4 +9,4 @@ att.AutoStats = true
 att.Slot = "stock"
 
 att.Mult_MoveDispersion = 0.65
-att.Mult_SightedMoveSpeed = 0.75
+att.Mult_SightedSpeedMult = 0.75

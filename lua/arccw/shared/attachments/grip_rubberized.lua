@@ -9,7 +9,7 @@ att.AutoStats = true
 att.Slot = "grip"
 
 --att.Mult_SightTime = 1.1
-att.Mult_SightedMoveSpeed = 0.8
+att.Mult_SightedSpeedMult = 0.8
 
 att.Mult_MoveDispersion = 0.65
 

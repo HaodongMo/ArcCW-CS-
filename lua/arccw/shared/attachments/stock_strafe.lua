@@ -10,4 +10,4 @@ att.Slot = "stock"
 
 att.Mult_SightTime = 1.1
 att.Mult_SpeedMult = 0.9
-att.Mult_SightedMoveSpeed = 1.5
+att.Mult_SightedSpeedMult = 1.5

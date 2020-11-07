@@ -24,4 +24,4 @@ att.Mult_SightTime = 1.07
 
 att.Add_BarrelLength = 3
 
-att.Mult_SightedMoveSpeed = 0.95
+att.Mult_SightedSpeedMult = 0.95
