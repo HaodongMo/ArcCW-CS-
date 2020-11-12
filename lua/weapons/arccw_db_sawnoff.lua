@@ -34,11 +34,11 @@ SWEP.Primary.ClipSize = 2 -- DefaultClip is automatically set.
 SWEP.ExtendedClipSize = 2
 SWEP.ReducedClipSize = 1
 
-SWEP.Recoil = 8
+SWEP.Recoil = 6
 SWEP.RecoilSide = 1
 SWEP.MaxRecoilBlowback = 2
 
-SWEP.AccuracyMOA = 150 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
+SWEP.AccuracyMOA = 50 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
 SWEP.HipDispersion = 100 -- inaccuracy added by hip firing.
 SWEP.MoveDispersion = 150
 
