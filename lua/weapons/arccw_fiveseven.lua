@@ -6,7 +6,7 @@ SWEP.AdminOnly = false
 SWEP.PrintName = "NXS"
 SWEP.TrueName = "Five-seveN"
 SWEP.Trivia_Class = "Pistol"
-SWEP.Trivia_Desc = "5.7mm self loading pistol, designed as a handgun counterpart to the PDW-57. 'NXS' stands for 'New eXperimental Sidearm'."
+SWEP.Trivia_Desc = "5.7mm self loading pistol, designed as a handgun counterpart to the "
 SWEP.Trivia_Manufacturer = "Auschen Waffenfabrik"
 SWEP.Trivia_Calibre = "5.7mm PDW"
 SWEP.Trivia_Mechanism = "Gas-Operated"
@@ -15,7 +15,15 @@ SWEP.Trivia_Year = 1989
 
 SWEP.Slot = 1
 
-if GetConVar("arccw_truenames"):GetBool() then SWEP.PrintName = SWEP.TrueName end
+if GetConVar("arccw_truenames"):GetBool() then
+    SWEP.PrintName = SWEP.TrueName
+    SWEP.Trivia_Manufacturer = "FN Herstal"
+    SWEP.Trivia_Calibre = "5.7x28mm FN"
+    SWEP.Trivia_Country = "Belgium"
+    SWEP.Trivia_Desc = SWEP.Trivia_Desc .. "P90."
+else
+    SWEP.Trivia_Desc = SWEP.Trivia_Desc .. "PDW-57. 'NXS' stands for 'New eXperimental Sidearm'."
+end
 
 SWEP.UseHands = true
 

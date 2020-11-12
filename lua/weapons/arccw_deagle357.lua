@@ -15,7 +15,10 @@ SWEP.Trivia_Year = 1991
 
 SWEP.Slot = 1
 
-if GetConVar("arccw_truenames"):GetBool() then SWEP.PrintName = SWEP.TrueName end
+if GetConVar("arccw_truenames"):GetBool() then
+    SWEP.PrintName = SWEP.TrueName
+    SWEP.Trivia_Manufacturer = "Israeli Military Industries"
+end
 
 SWEP.ViewModel = "models/weapons/arccw/c_gce.mdl"
 SWEP.WorldModel = "models/weapons/w_pist_deagle.mdl"

@@ -15,7 +15,10 @@ SWEP.Trivia_Year = 1990
 
 SWEP.Slot = 2
 
-if GetConVar("arccw_truenames"):GetBool() then SWEP.PrintName = SWEP.TrueName end
+if GetConVar("arccw_truenames"):GetBool() then
+    SWEP.PrintName = SWEP.TrueName
+    SWEP.Trivia_Manufacturer = "Swiss Arms AG"
+end
 
 SWEP.UseHands = true
 

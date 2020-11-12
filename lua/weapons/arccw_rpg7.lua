@@ -15,7 +15,10 @@ SWEP.Trivia_Year = 1961
 
 SWEP.Slot = 4
 
-if GetConVar("arccw_truenames"):GetBool() then SWEP.PrintName = SWEP.TrueName end
+if GetConVar("arccw_truenames"):GetBool() then
+    SWEP.PrintName = SWEP.TrueName
+    SWEP.Trivia_Manufacturer = "Degtyarev Plant"
+end
 
 SWEP.UseHands = true
 

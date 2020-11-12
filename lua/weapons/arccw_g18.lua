@@ -4,7 +4,7 @@ SWEP.Category = "ArcCW - CS+" -- edit this if you like
 SWEP.AdminOnly = false
 
 SWEP.PrintName = "PP-A9"
-SWEP.TrueName = "G18"
+SWEP.TrueName = "Glock 18"
 SWEP.Trivia_Class = "Machine Pistol"
 SWEP.Trivia_Desc = "9mm fully automatic police machine pistol. Low damage, but a sophisticated recoil control system allows for excellent automatic performance."
 SWEP.Trivia_Manufacturer = "Auschen Waffenfabrik"
@@ -15,7 +15,11 @@ SWEP.Trivia_Year = 1989
 
 SWEP.Slot = 1
 
-if GetConVar("arccw_truenames"):GetBool() then SWEP.PrintName = SWEP.TrueName end
+if GetConVar("arccw_truenames"):GetBool() then
+    SWEP.PrintName = SWEP.TrueName
+    SWEP.Trivia_Manufacturer = "Glock Ges.m.b.H."
+    SWEP.Trivia_Country = "Germany"
+end
 
 SWEP.UseHands = true
 
@@ -140,6 +144,10 @@ SWEP.AttachmentElements = {
                 }
             }
         }
+    },
+    ["fcg_semi"] = {
+        TrueNameChange = "Glock 17",
+        NameChange = "PP-S9",
     }
 }
 

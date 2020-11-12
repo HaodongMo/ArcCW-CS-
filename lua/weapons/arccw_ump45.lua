@@ -15,7 +15,12 @@ SWEP.Trivia_Year = 1977
 
 SWEP.Slot = 2
 
-if GetConVar("arccw_truenames"):GetBool() then SWEP.PrintName = SWEP.TrueName end
+if GetConVar("arccw_truenames"):GetBool() then
+    SWEP.PrintName = SWEP.TrueName
+    string.Replace(SWEP.Trivia_Desc, "MP-K1", "UMP-9")
+    SWEP.Trivia_Manufacturer = "Heckler & Koch"
+    SWEP.Trivia_Country = "Germany"
+end
 
 SWEP.UseHands = true
 

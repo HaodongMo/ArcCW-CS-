@@ -15,7 +15,11 @@ SWEP.Trivia_Year = 1991
 
 SWEP.Slot = 2
 
-if GetConVar("arccw_truenames"):GetBool() then SWEP.PrintName = SWEP.TrueName end
+if GetConVar("arccw_truenames"):GetBool() then
+    SWEP.PrintName = SWEP.TrueName
+    SWEP.Trivia_Manufacturer = "Steyr Mannlicher"
+    SWEP.Trivia_Country = "Austria"
+end
 
 SWEP.UseHands = true
 

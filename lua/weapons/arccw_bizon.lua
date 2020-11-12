@@ -15,7 +15,12 @@ SWEP.Trivia_Year = 1996
 
 SWEP.Slot = 2
 
-if GetConVar("arccw_truenames"):GetBool() then SWEP.PrintName = SWEP.TrueName end
+if GetConVar("arccw_truenames"):GetBool() then
+    SWEP.PrintName = SWEP.TrueName
+    SWEP.Trivia_Manufacturer = "Izhmash"
+    SWEP.Trivia_Country = "Russia"
+    SWEP.Trivia_Calibre = "9x18mm Makarov"
+end
 
 SWEP.UseHands = true
 

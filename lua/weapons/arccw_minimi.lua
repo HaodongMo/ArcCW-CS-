@@ -15,7 +15,11 @@ SWEP.Trivia_Year = 1984
 
 SWEP.Slot = 2
 
-if GetConVar("arccw_truenames"):GetBool() then SWEP.PrintName = SWEP.TrueName end
+if GetConVar("arccw_truenames"):GetBool() then
+    SWEP.PrintName = SWEP.TrueName
+    SWEP.Trivia_Manufacturer = "FN Herstal"
+    SWEP.Trivia_Country = "Belgium"
+end
 
 SWEP.UseHands = true
 

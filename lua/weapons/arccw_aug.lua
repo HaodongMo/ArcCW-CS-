@@ -17,7 +17,7 @@ SWEP.Slot = 2
 
 if GetConVar("arccw_truenames"):GetBool() then
     SWEP.PrintName = SWEP.TrueName
-    SWEP.Trivia_Manufacturer = "Steyr"
+    SWEP.Trivia_Manufacturer = "Steyr Mannlicher"
 end
 
 SWEP.UseHands = true
